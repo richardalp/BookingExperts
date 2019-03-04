@@ -18,7 +18,7 @@
 #
 
 #### Concept 2/5 |  Startpage section --> Really really short information about me. 
-####                Welcome section --> Welkom text hover animation.
+#### Concept 2/5 |  Welcome section --> Welkom text hover animation.
 
 ![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-2.jpg)
 
@@ -29,7 +29,7 @@
 #
 
 #### Concept 3/5 |  Motivation section -> My motivation content.
-####                Important year section --> Why is the year 2019 important to me Content. 
+#### Concept 3/5 |  Important year section --> Why is the year 2019 important to me Content. 
 
 ![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-4.jpg)
 
@@ -39,7 +39,14 @@
 
 ![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-5.jpg)
 
-####                Skills and Properties section --> Labels are moving slowly up and down like a wave.
+#### Concept 4/5 |  Skills and Properties section --> Labels are moving slowly up and down like a wave.
 
 ![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-6.jpg)
+
+#
+
+#### Concept 5/5 |  Book Richard for the conversation section --> Short contact form
+#### Concept 5/5 |  Contact section --> R logo with 3d hover effect animation. Ufortunately no logo animation sketch :-(.
+
+![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-7.jpg)
 
