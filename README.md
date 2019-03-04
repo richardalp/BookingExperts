@@ -1,4 +1,4 @@
-![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-1.jpg)
+![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/header.jpg)
 
 # Booking Experts Website
 # The purpose of the website is to work at Booking Experts.
