@@ -1,0 +1,142 @@
+
+/* /////////////////////////////    Richard Alp | Booking Experts   ////////////////////////////// */
+
+
+/* /////////////////////////////    Basic    ////////////////////////////// */
+
+@font-face {
+    font-family: 'Mukta', sans-serif;
+}
+
+* {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.bold{ 
+    font-weight: 800;
+}
+
+/* /////////////////////////////    Horizontal scroll   ////////////////////////////// */
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow: hidden;
+  }
+  
+  .horizontal-scroll {
+    width: 100vh;
+    height: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
+    -webkit-transform: rotate(-90deg) translate3d(0, -100vh, 0);
+            transform: rotate(-90deg) translate3d(0, -100vh, 0);
+  }
+  .horizontal-scroll > * {
+    -webkit-transform-origin: left top;
+            transform-origin: left top;
+    -webkit-transform: rotate(90deg) translate3d(0, calc(-100vh), 0);
+            transform: rotate(90deg) translate3d(0, calc(-100vh), 0);
+  }
+
+  .horizontal-scroll__block {
+    width: calc(100vh);
+    height: calc(100vh);
+    position: relative;
+  }
+  
+/* /////////////////////////////    Container background   ////////////////////////////// */
+
+ .colorful-container {
+    background: linear-gradient(270deg, #00cc6a, #00cec9);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+.color-green-container {
+    background:  #00cc6a;
+}
+
+.color-grey-container {
+    background:  grey;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* /////////////////////////////    Content   ////////////////////////////// */
+
+  .horizontal-scroll__block .letter {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+  }
+ 
+  
+
+
+
