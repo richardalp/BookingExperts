@@ -10,7 +10,7 @@
     font-size: 20px;
     padding: 0;
     margin: 0;
-    color: #3f3f3f;
+    color: #000;
 }
 
 .light {
@@ -170,18 +170,18 @@
             transform: translate3d(-50%, -50%, 0);
   }
 
- h2 {
-     font-size: 2em;
+  .startpage h2 {
+    font-size: 2em;
     text-transform: uppercase;
  }
  
 /* /////////////////////////////    Startpage section   ////////////////////////////// */
 
-.white-container {
+.white-container-border {
     background: #fff;
     padding: 70px 50px;
     text-align: center;
-    border: 4px solid #3f3f3f;
+    border: 4px solid #000;
     letter-spacing: 2px;
 }
 
@@ -216,6 +216,7 @@
 .welcome-box h1:nth-child(1) {
     background: #fff;
     background: linear-gradient(270deg, #00cc6a, #00cec9);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -230,6 +231,27 @@
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
   
+/* /////////////////////////////    Motivation section   ////////////////////////////// */
 
+.white-container {
+    background: #fff;
+    padding: 70px;
+    bottom: 0;
+}
 
+.white-container p {
+    font-size: 0.9em;
+}
+.horizontal-scroll__block .container-motivation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0 15%;
+}
 
+.motivation h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
