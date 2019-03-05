@@ -282,3 +282,76 @@ h3.big-number {
 
 /* /////////////////////////////    Skills section   ////////////////////////////// */
 
+.list-translated {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    list-style: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    color: #eee;
+    text-align: left;
+    position: absolute;
+    z-index: 0;
+    letter-spacing: 10px;
+}
+
+.list-translated.green {
+    font-size: 1.5em;
+    line-height: 3em;
+    opacity: 1;
+    bottom: 0px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -10px;
+    left: -680px;
+}
+
+.big {
+    font-size: 3em;
+}
+
+li.big {
+    background: rgba(0, 206, 201, 0.50);
+    display: inline-block;
+    padding: 10px;
+}
+
+li.big:nth-child(even) {
+    animation-name: moveVertical;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+li.big:nth-child(odd) {
+    animation-name: moveVertical2nd;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveVertical {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: translate3d(50px, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+@keyframes moveVertical2nd {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: translate3d(-50px, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, 0px, 0);
+    }
+}
