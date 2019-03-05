@@ -238,10 +238,6 @@
     padding: 70px;
     bottom: 0;
 }
-
-.white-container p {
-    font-size: 0.9em;
-}
 .horizontal-scroll__block .container-motivation {
       display: flex;
       justify-content: center;
@@ -255,3 +251,34 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.white-container p {
+    font-size: 0.9em;
+}
+
+/* /////////////////////////////    Important year section   ////////////////////////////// */
+
+h3.big-number {
+    font-size: 19em;
+    font-weight: bold;
+    background: #fff;
+    background: linear-gradient(270deg, #00cc6a, #00cec9);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.motivation-textbox {
+    bottom: 30px;
+    left: 40px;
+    border-left: 4px solid #000;
+    padding-left: 20px;
+    position: absolute;
+}
+
+/* /////////////////////////////    Skills section   ////////////////////////////// */
+
