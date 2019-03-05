@@ -128,14 +128,11 @@
 .menu {
     text-transform: uppercase;
     font-weight: bold;
-    position: fixed;
-    color: #000;
-    margin-top: 10px;
-    text-align: left;
-    float: left;
+    position: absolute;
     top: 10px;
-    padding: 0 10px;
-    z-index: 2;
+    left: 100px;
+    z-index: 10000;
+    color: #000;
 }
 
 .caption {
@@ -144,19 +141,15 @@
     transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     list-style: none;
-    font-size: 29px;
+    font-size: 1.3em;
     color: #000;
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    color: #000;
-    margin-top: -100px;
-    text-align: left;
-    float: left;
+    margin-top: -56px;
     position: absolute;
-    line-height: 250%;
-    left: -30px;
-    line-height: 90%;
+    left: -80px;
+    line-height: 120%;
     top: 180px;
     padding: 4px 10px;
     /* padding: 10px; */
@@ -179,7 +172,7 @@
 
  h2 {
      font-size: 2em;
-        text-transform: uppercase;
+    text-transform: uppercase;
  }
  
 /* /////////////////////////////    Startpage section   ////////////////////////////// */
