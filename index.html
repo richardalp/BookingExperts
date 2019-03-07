@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Richard Alp | Booking Experts</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/logo.css" />
     <link href="https://fonts.googleapis.com/css?family=Mukta:200,400,800" rel="stylesheet">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
@@ -105,26 +106,47 @@
                     <div class="title-bookme-me">me</div>
                 </div>
                 <div class="contactform">
-                <form name="contactform" method="post" action="contactform.php">
-                    <input class="input-bookme" type="text" name="person1"  placeholder="Contactpersoon">
-                    <input class="input-bookme" type="text" name="person2"  placeholder="2e contactpersoon">
-                    <input class="input-bookme" type="text" name="email" placeholder="Uw e-mail adres">
-                    <textarea class="input-bookme" name="comments" placeholder="Uw bericht"></textarea>
-                    <button class="btn-bookme">
-                        <a class="button" type="submit" name="submit">
-                            <svg>
-                                <rect></rect>
-                            </svg>
-                            BOEK NU
-                        </a>
-                    </button>
-                </form>
-            </div>
+                    <form name="contactform" method="post" action="contactform.php">
+                        <input class="input-bookme" type="text" name="person1" placeholder="Contactpersoon">
+                        <input class="input-bookme" type="text" name="person2" placeholder="2e contactpersoon">
+                        <input class="input-bookme" type="text" name="email" placeholder="Uw e-mail adres">
+                        <textarea class="input-bookme" name="comments" placeholder="Uw bericht"></textarea>
+                        <button class="btn-bookme">
+                            <a class="button" type="submit" name="submit">
+                                <svg>
+                                    <rect></rect>
+                                </svg>
+                                BOEK NU
+                            </a>
+                        </button>
+                    </form>
+                </div>
             </span>
         </div>
 
         <div id="contact" class="horizontal-scroll__block colorful-grey-container">
-            <span class="container">Contact</span>
+            <span class="container container-logo">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <ul>
+                            <li><img class="icon-profile" src="img/icon-profile.svg"><span class="logo-text">Richard
+                                    Alp</span></li>
+                            <li><img class="icon-email" src="img/icon-email.svg"><a href="mailto:richard@richardalp.nl"><span
+                                        class="logo-text">E-mail</span></a></li>
+                            <li><img class="icon-linkedin" src="img/icon-linkedin.svg"><a target="_blank" href="https://www.linkedin.com/in/richard-alp/"><span
+                                        class="logo-text">Linkedin</span></a></li>
+                            <li><img class="icon-github" src="img/icon-github.svg"><a target="_blank" href="https://github.com/richardalp"><span
+                                        class="logo-text">Github</span></a></li>
+                            <li><img class="icon-gitlab" src="img/icon-gitlab.svg"><a target="_blank" href="https://gitlab.com/Richard_Alp"><span
+                                        class="logo-text">Gitlab</span></a></li>
+                            <li><img class="icon-cv" src="img/icon-cv.svg"><a target="_blank" href="cv/richard_alp_cv_2019.pdf"><span
+                                        class="logo-text">Cirriculum Vitae</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </span>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

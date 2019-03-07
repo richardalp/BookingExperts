@@ -1,0 +1,171 @@
+
+    .container-logo {
+        transform-style: preserve-3d;
+        perspective: 1000px;
+    }
+    .logo-text {
+        color: #fff;
+    }
+    .front,
+    .back{
+    background-size: cover;
+      background-position: center;
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      backface-visibility: hidden;
+      min-height: 280px;
+      height: auto;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    .back{
+    
+    background: url(../img/logo-r.svg) no-repeat;
+    }
+    .front:after{
+      position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    backface-visibility: hidden;
+    
+    }
+    .container:hover .front,
+    .container:hover .back{
+    
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    
+    }
+    .back{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 340px;
+    height: 500px;
+    }
+    .inner{
+    
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 40%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    outline: 1px solid transparent;
+    perspective: inherit;
+    z-index: 2;
+    }
+    ul{
+    margin:0 0 0 18%;
+    padding: 0;
+    }
+    li{
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    }
+    li a{
+    color: #fff;
+    text-decoration: none;
+    }
+    li a:hover{
+    color: #00CC6A;
+    }
+    .container .back{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    }
+    .container .front{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    }
+    .container:hover .back{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    }
+    .container:hover .front{
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    }
+    .front{
+    background: url(../img/logo.svg) no-repeat;
+    width: 340px;
+    height: 500px;
+    }
+    .front .inner li{
+    font-size: 2rem;
+    position: relative;
+    }
+    .front .inner p:after{
+    content: '';
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -.75rem;
+    }
+
+      .icon-profile {
+      background: url(../img/icon-profile.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      background-position: center;
+    }
+      .icon-email {
+      background: url(../img/icon-email.svg) no-repeat;
+      width: 20px;
+      height: 17px;
+      background-position: center bottom;
+    }
+      .icon-linkedin {
+      background: url(../img/icon-linkedin.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      background-position: center;
+    }
+      .icon-gitlab {
+      background: url(../img/icon-gitlab.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      background-position: center;
+    }
+       .icon-github {
+      background: url(../img/icon-github.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      background-position: center;
+    }
+      .icon-cv {
+      background: url(../img/icon-cv.svg) no-repeat;
+      width: 20px;
+      height: 20px;
+      background-position: center;
+    }
+    span{
+      padding-left: 20px;
+    }
+
+    @media screen and (max-width: 64rem){
+    .col{
+    width: calc(33.333333% - 5rem);
+    }
+    }
+    @media screen and (max-width: 48rem){
+    .col{
+    width: calc(50% - 5rem);
+    }
+    }
+    @media screen and (max-width: 32rem){
+    .col{
+    width: 100%;
+    margin: 0 0 2rem 0;
+    }
+    }
