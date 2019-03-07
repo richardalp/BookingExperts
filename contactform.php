@@ -3,7 +3,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "recho.alp@gmail.com";
-    $email_subject = "Your email subject line";
+    $email_subject = "Booking Experts kennismakingsgesprek";
  
     function died($error) {
         // your error code can go here
@@ -119,17 +119,17 @@ if(isset($_POST['email'])) {
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
   if(!preg_match($email_exp,$email_from)) {
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'Het e-mailadres dat u hebt ingevoerd, lijkt niet geldig te zijn.<br />';
   }
  
     $string_exp = "/^[A-Za-z .'-]+$/";
  
   if(!preg_match($string_exp,$person1)) {
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+    $error_message .= 'De naam die je hebt ingevoerd, lijkt niet geldig te zijn.<br />';
   }
  
   if(strlen($comments) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+    $error_message .= 'De opmerkingen die u hebt ingevoerd, lijken niet geldig.<br />';
   }
  
   if(strlen($error_message) > 0) {

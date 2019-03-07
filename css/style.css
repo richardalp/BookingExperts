@@ -236,7 +236,7 @@
 
 .white-container {
     background: #fff;
-    padding: 70px;
+    padding: 50px 70px;
     bottom: 0;
 }
 .horizontal-scroll__block .container-motivation {
@@ -251,6 +251,7 @@
     font-size: 2em;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: -20px;
 }
 
 .white-container p {
@@ -379,7 +380,7 @@ li.big:nth-child(odd) {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin-left: 13px;
 }
 
 
@@ -491,5 +492,12 @@ textarea{
     border: 1px solid #00cec9;
     font-weight: normal;
     font-size: 14px;
+}
+
+.verplicht {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #00cec9;
+    text-align: center;
 }
 
