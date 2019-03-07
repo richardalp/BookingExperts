@@ -46,7 +46,7 @@
 #
 
 #### Concept 5/5 |  Book Richard for the conversation section --> Short contact form
-#### Concept 5/5 |  Contact section --> R logo with 3d hover effect animation. Ufortunately no logo animation sketch :-(.
+#### Concept 5/5 |  Contact section --> R logo with 3d hover effect animation. Unfortunately dont have logo animation sketch :-(.
 
 ![Image of step 1](http://richardalp.nl/bookingexperts/img/concept/concept-7.jpg)
 
